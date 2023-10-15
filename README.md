@@ -1,6 +1,6 @@
 # files-organize
 
-This program organizes files in a directory by extension. It does this by first creating a dictionary to map extension to directory. Then, it iterates through each file in the directory and checks if it is a regular file. If it is, it obtains the extension of the file and checks if it is already in the dictionary. If it is, it obtains the directory corresponding to the extension. If it is not, it creates the directory and adds it to the dictionary. Finally, it moves the file to the corresponding directory.
+This program organizes files in the downloads directory by extension. It does this by first creating a dictionary to map extension to directory. Then, it iterates through each file in the directory and checks if it is a regular file. If it is, it obtains the extension of the file and checks if it is already in the dictionary. If it is, it obtains the directory corresponding to the extension. If it is not, it creates the directory and adds it to the dictionary. Finally, it moves the file to the corresponding directory.
 
 The program also calls itself recursively for each directory in the directory specified. This means that all files and subdirectories will be organized by extension.
 
